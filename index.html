@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MoviesSearch</title>
   </head>
   <body>
     <header>
-      <nav>
+      <div class="logo">
+        <img src="img/logo.jpg" />
+      </div>
+      <div class="menu">
         <ul>
-          <li>TV Show</li>
-          <li>Cinema</li>
+          <li><a href="/">TV Show</a></li>
+          <li><a href="/">Movies</a></li>
         </ul>
-      </nav>
+      </div>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search" />
+          <button type="submit"></button>
+        </form>
+      </div>
     </header>
     <div class="posterOne">
-      <img class="one" src="img/poster.jpg"/>
+      <img class="one" src="img/poster.jpg" />
     </div>
     <section>
       <div class="newFilms"></div>
