@@ -8,15 +8,21 @@ header {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-
+  /*Logo*/
   .logo {
     margin-right: 30px;
+    margin-left: 5px;
   }
+  .logo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  /*Search*/
   .search form {
-    position: relative;
-    width: 280px;
-    margin: 0 auto;
-    margin-right: 10%;
+    display: flex;
+    width: 200px;
+    margin-right: 200px;
   }
   .search input {
     width: 100%;
@@ -29,22 +35,13 @@ header {
     color: #9e9c9c;
   }
   .search button {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    background: #7ba7ab;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-  .search button:before {
-    content: "\f002";
-    font-family: FontAwesome;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #44B;
+    color: white;
     font-size: 16px;
-    color: #f9f0da;
   }
+  /*Navigation*/
   .menu {
     flex-grow: 1;
   }
@@ -77,6 +74,7 @@ header {
     text-decoration: none;
   }
 }
+
 .posterOne {
   display: flex;
   .one {
