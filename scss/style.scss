@@ -5,6 +5,8 @@
 body {
   max-width: 1350px;
 }
+
+/*Header*/
 header {
   background-color: #44b;
   display: flex;
@@ -83,21 +85,32 @@ header {
     text-decoration: none;
   }
 }
-
+/*Adaptive header*/
 @media screen and (max-width: 900px) {
   header {
+    /*Logo*/
+    .logo img {
+      border-radius: 50%;
+      border: 2px solid white;
+      width: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
+      height: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
+    }
+
+    /*Navigation*/
     .menu ul {
       display: flex;
       flex-flow: row nowrap;
       margin: 0;
       padding: 0;
       list-style: none;
-      font-size: calc(10px + (30 - 10) * ((100vw - 320px) / (900 - 320)));
+      font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (900 - 320)));
       line-height: 18px;
     }
     .menu li {
       margin-right: calc(10px + (20 - 10) * ((100vw - 320px) / (900 - 320)));
     }
+
+    /*Search*/
     .search form {
       display: flex;
       width: calc(100px + (300 - 100) * ((100vw - 320px) / (900 - 320)));
@@ -122,9 +135,14 @@ header {
   .one {
     width: 100%;
   }
-}
-@media screen and (max-width: 1350px) {
-  .one {
-    width: 1350px;
+  .text {
+    position: absolute;
+    top: 300px;
+    left: 200px;
   }
 }
+// @media screen and (max-width: 1350px) {
+//   .one {
+//     width: 1350px;
+//   }
+// }
