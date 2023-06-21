@@ -2,12 +2,16 @@
   padding: 0;
   margin: 0;
 }
+body {
+  max-width: 1350px;
+}
 header {
-  background-color: rgb(99, 99, 248);
+  background-color: #44b;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+
   /*Logo*/
   .logo {
     margin-right: 30px;
@@ -15,14 +19,16 @@ header {
   }
   .logo img {
     border-radius: 50%;
+    border: 2px solid white;
     width: 100px;
     height: 100px;
   }
+
   /*Search*/
   .search form {
     display: flex;
-    width: 200px;
-    margin-right: 200px;
+    width: 300px;
+    margin-right: 100px;
   }
   .search input {
     width: 100%;
@@ -37,10 +43,14 @@ header {
   .search button {
     border-radius: 50%;
     border: 2px solid white;
-    background-color: #44B;
+    background-color: #44b;
     color: white;
     font-size: 16px;
   }
+  .search button:hover {
+    background-color: #ff3d00;
+  }
+
   /*Navigation*/
   .menu {
     flex-grow: 1;
@@ -51,7 +61,6 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
-
     font-size: 30px;
     line-height: 18px;
   }
@@ -74,6 +83,39 @@ header {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 900px) {
+  header {
+    .menu ul {
+      display: flex;
+      flex-flow: row nowrap;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: calc(10px + (30 - 10) * ((100vw - 320px) / (900 - 320)));
+      line-height: 18px;
+    }
+    .menu li {
+      margin-right: calc(10px + (20 - 10) * ((100vw - 320px) / (900 - 320)));
+    }
+    .search form {
+      display: flex;
+      width: calc(100px + (300 - 100) * ((100vw - 320px) / (900 - 320)));
+      margin-right: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
+    }
+    .search input {
+      width: 100%;
+      height: calc(22px + (42 - 22) * ((100vw - 320px) / (900 - 320)));
+      padding-left: 10px;
+      border: 2px solid #7ba7ab;
+      border-radius: 5px;
+      outline: none;
+      background: #f9f0da;
+      color: #9e9c9c;
+    }
+  }
+}
+/*calc(100px + (300 - 100) * ((100vw - 320px) / (1200 - 320)));*/
 
 .posterOne {
   display: flex;
