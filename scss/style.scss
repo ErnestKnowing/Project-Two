@@ -1,6 +1,6 @@
 /*Variables*/
-$widthFrame: 100px;
-$heightFrame: 100px;
+$widthFrame: 200px;
+$heightFrame: 200px;
 $colorFrame: red;
 
 * {
@@ -9,6 +9,7 @@ $colorFrame: red;
 }
 body {
   max-width: 1350px;
+  background-color: #44b;
 }
 
 /*Header*/
@@ -173,6 +174,7 @@ header {
     width: 0;
   }
 }
+/*Adaptive Poster One*/
 @media screen and (max-width: 1350px) {
   .posterOne {
     .text {
@@ -191,10 +193,13 @@ header {
   }
   .flexNewMovies {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     .movies {
       width: $widthFrame;
       height: $heightFrame;
       background-color: $colorFrame;
+      padding-left: 20px;
     }
   }
 }

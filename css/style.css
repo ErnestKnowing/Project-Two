@@ -7,6 +7,7 @@
 
 body {
   max-width: 1350px;
+  background-color: #44b;
 }
 
 /*Header*/
@@ -167,6 +168,7 @@ header .menu a {
     width: 0;
   }
 }
+/*Adaptive Poster One*/
 @media screen and (max-width: 1350px) {
   .posterOne .text {
     top: calc(100px + 100 * (100vw - 320px) / 1030);
@@ -183,9 +185,12 @@ header .menu a {
 }
 .newMovies .flexNewMovies {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .newMovies .flexNewMovies .movies {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: red;
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */
