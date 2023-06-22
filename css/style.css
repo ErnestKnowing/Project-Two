@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Variables*/
 * {
   padding: 0;
   margin: 0;
@@ -127,6 +128,7 @@ header .menu a {
   }
 }
 /*calc(100px + (300 - 100) * ((100vw - 320px) / (1200 - 320)));*/
+/*Poster One*/
 .posterOne {
   display: flex;
 }
@@ -171,4 +173,19 @@ header .menu a {
     left: calc(5px + 195 * (100vw - 320px) / 1030);
     font-size: calc(10px + 40 * (100vw - 320px) / 1030);
   }
+}
+/*New Films*/
+.newMovies {
+  width: 100%;
+}
+.newMovies h2 {
+  text-align: center;
+}
+.newMovies .flexNewMovies {
+  display: flex;
+}
+.newMovies .flexNewMovies .movies {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

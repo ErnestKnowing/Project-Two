@@ -1,3 +1,8 @@
+/*Variables*/
+$widthFrame: 100px;
+$heightFrame: 100px;
+$colorFrame: red;
+
 * {
   padding: 0;
   margin: 0;
@@ -130,6 +135,7 @@ header {
 }
 /*calc(100px + (300 - 100) * ((100vw - 320px) / (1200 - 320)));*/
 
+/*Poster One*/
 .posterOne {
   display: flex;
   .one {
@@ -173,6 +179,22 @@ header {
       top: calc(100px + (200 - 100) * ((100vw - 320px) / (1350 - 320)));
       left: calc(5px + (200 - 5) * ((100vw - 320px) / (1350 - 320)));
       font-size: calc(10px + (50 - 10) * ((100vw - 320px) / (1350 - 320)));
+    }
+  }
+}
+
+/*New Films*/
+.newMovies {
+  width: 100%;
+  h2 {
+    text-align: center;
+  }
+  .flexNewMovies {
+    display: flex;
+    .movies {
+      width: $widthFrame;
+      height: $heightFrame;
+      background-color: $colorFrame;
     }
   }
 }
