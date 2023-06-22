@@ -86,7 +86,7 @@ header .menu a {
 }
 
 /*Adaptive header*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1350px) {
   header {
     /*Logo*/
     /*Navigation*/
@@ -95,8 +95,8 @@ header .menu a {
   header .logo img {
     border-radius: 50%;
     border: 2px solid white;
-    width: calc(50px + 50 * (100vw - 320px) / 580);
-    height: calc(50px + 50 * (100vw - 320px) / 580);
+    width: calc(50px + 50 * (100vw - 320px) / 1030);
+    height: calc(50px + 50 * (100vw - 320px) / 1030);
   }
   header .menu ul {
     display: flex;
@@ -104,20 +104,20 @@ header .menu a {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: calc(15px + 15 * (100vw - 320px) / 580);
+    font-size: calc(15px + 15 * (100vw - 320px) / 1030);
     line-height: 18px;
   }
   header .menu li {
-    margin-right: calc(10px + 10 * (100vw - 320px) / 580);
+    margin-right: calc(10px + 10 * (100vw - 320px) / 1030);
   }
   header .search form {
     display: flex;
-    width: calc(100px + 200 * (100vw - 320px) / 580);
-    margin-right: calc(50px + 50 * (100vw - 320px) / 580);
+    width: calc(100px + 200 * (100vw - 320px) / 1030);
+    margin-right: calc(50px + 50 * (100vw - 320px) / 1030);
   }
   header .search input {
     width: 100%;
-    height: calc(22px + 20 * (100vw - 320px) / 580);
+    height: calc(22px + 20 * (100vw - 320px) / 1030);
     padding-left: 10px;
     border: 2px solid #7ba7ab;
     border-radius: 5px;
@@ -163,5 +163,12 @@ header .menu a {
 @keyframes printed_text {
   from {
     width: 0;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .posterOne .text {
+    top: calc(100px + 100 * (100vw - 320px) / 1030);
+    left: calc(5px + 195 * (100vw - 320px) / 1030);
+    font-size: calc(10px + 40 * (100vw - 320px) / 1030);
   }
 }/*# sourceMappingURL=style.css.map */

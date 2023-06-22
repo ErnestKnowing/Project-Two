@@ -86,14 +86,14 @@ header {
   }
 }
 /*Adaptive header*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1350px) {
   header {
     /*Logo*/
     .logo img {
       border-radius: 50%;
       border: 2px solid white;
-      width: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
-      height: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
+      width: calc(50px + (100 - 50) * ((100vw - 320px) / (1350 - 320)));
+      height: calc(50px + (100 - 50) * ((100vw - 320px) / (1350 - 320)));
     }
 
     /*Navigation*/
@@ -103,22 +103,22 @@ header {
       margin: 0;
       padding: 0;
       list-style: none;
-      font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (900 - 320)));
+      font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1350 - 320)));
       line-height: 18px;
     }
     .menu li {
-      margin-right: calc(10px + (20 - 10) * ((100vw - 320px) / (900 - 320)));
+      margin-right: calc(10px + (20 - 10) * ((100vw - 320px) / (1350 - 320)));
     }
 
     /*Search*/
     .search form {
       display: flex;
-      width: calc(100px + (300 - 100) * ((100vw - 320px) / (900 - 320)));
-      margin-right: calc(50px + (100 - 50) * ((100vw - 320px) / (900 - 320)));
+      width: calc(100px + (300 - 100) * ((100vw - 320px) / (1350 - 320)));
+      margin-right: calc(50px + (100 - 50) * ((100vw - 320px) / (1350 - 320)));
     }
     .search input {
       width: 100%;
-      height: calc(22px + (42 - 22) * ((100vw - 320px) / (900 - 320)));
+      height: calc(22px + (42 - 22) * ((100vw - 320px) / (1350 - 320)));
       padding-left: 10px;
       border: 2px solid #7ba7ab;
       border-radius: 5px;
@@ -167,8 +167,12 @@ header {
     width: 0;
   }
 }
-// @media screen and (max-width: 1350px) {
-//   .one {
-//     width: 1350px;
-//   }
-// }
+@media screen and (max-width: 1350px) {
+  .posterOne {
+    .text {
+      top: calc(100px + (200 - 100) * ((100vw - 320px) / (1350 - 320)));
+      left: calc(5px + (200 - 5) * ((100vw - 320px) / (1350 - 320)));
+      font-size: calc(10px + (50 - 10) * ((100vw - 320px) / (1350 - 320)));
+    }
+  }
+}
