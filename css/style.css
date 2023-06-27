@@ -189,8 +189,11 @@ header .menu a {
   justify-content: space-around;
 }
 .newMovies .flexNewMovies .movies {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  width: 250px;
+  height: 300px;
   padding-left: 20px;
+}
+.newMovies .flexNewMovies .movies .oneFilm {
+  width: 250px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
