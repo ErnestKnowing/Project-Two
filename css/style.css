@@ -181,19 +181,31 @@ header .menu a {
   width: 100%;
 }
 .newMovies h2 {
+  font-size: 30px;
   text-align: center;
+  color: white;
+  margin-top: 1%;
 }
 .newMovies .flexNewMovies {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 2%;
 }
 .newMovies .flexNewMovies .movies {
   width: 220px;
   height: 280px;
-  padding-left: 20px;
 }
 .newMovies .flexNewMovies .movies .newFilms {
   width: 220px;
   height: 280px;
+  border-radius: 20px;
+}
+.newMovies .flexNewMovies .movies .nameFilms {
+  color: white;
+  font-size: 14px;
+}
+.newMovies .flexNewMovies .movies .dataFilms {
+  color: white;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
