@@ -212,10 +212,67 @@ header {
         color: white;
         font-size: 14px;
       }
-      .dataFilms {
+      .dateFilms {
         color: white;
         font-size: 14px;
       }
+    }
+  }
+}
+
+/*Popular TV shows*/
+.tvShow {
+  margin-top: 50px;
+  .gridTvShow {
+    display: grid;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(3, [row] 1fr);
+    border: 5px solid white;
+    grid-column-gap: 15px;
+
+    .grid-item {
+      min-height: 100px;
+      border: 5px;
+    }
+    .grid-item1 {
+      grid-column: span 2;
+      background-color: #7ba7ab;
+    }
+    .grid-item2 {
+      grid-column: col 3 / col 5;
+      grid-row: row 1 / row 3;
+      background-color: #ff3d00;
+    }
+    .grid-item3 {
+      grid-column: col 5 / col 6;
+      grid-row: row 1 / row 3;
+      background-color: #9e9c9c;
+    }
+    .grid-item4 {
+      background-color: red;
+    }
+    .grid-item5 {
+      background-color: rgb(134, 79, 79);
+    }
+    .grid-item6 {
+      background-color: rgb(24, 145, 245);
+    }
+    .grid-item7 {
+      background-color: rgb(52, 224, 173);
+    }
+    .grid-item8 {
+      background-color: rgb(126, 211, 46);
+    }
+    .grid-item9 {
+      grid-column: col 2 / col 4;
+      background-color: #7ba7ab;
+    }
+    .grid-item10 {
+      grid-column: col 4 / col 6;
+      background-color: rgb(3, 3, 109);
+    }
+    .grid-item11 {
+      background-color: rgb(255, 0, 212);
     }
   }
 }
