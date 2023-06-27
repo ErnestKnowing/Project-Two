@@ -221,22 +221,33 @@ header {
 }
 
 /*Popular TV shows*/
-.tvShow {
-  margin-top: 50px;
+.series {
+  margin-top: 50px; //Исправить размеры
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+  }
   .gridTvShow {
     display: grid;
     grid-template-columns: repeat(6, [col] 1fr);
     grid-template-rows: repeat(3, [row] 1fr);
     border: 5px solid white;
     grid-column-gap: 15px;
+    margin-top: 2%;
 
     .grid-item {
-      min-height: 100px;
+      min-height: 200px;
       border: 5px;
     }
     .grid-item1 {
       grid-column: span 2;
       background-color: #7ba7ab;
+      .oneImg{
+        width: 420px;
+        height: 280px;
+      }
     }
     .grid-item2 {
       grid-column: col 3 / col 5;
