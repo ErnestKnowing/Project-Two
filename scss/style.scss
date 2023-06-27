@@ -1,6 +1,6 @@
 /*Variables*/
-$widthFrame: 250px;
-$heightFrame: 300px;
+$widthFrame: 220px;
+$heightFrame: 280px;
 $colorFrame: red;
 
 * {
@@ -200,7 +200,7 @@ header {
       height: $heightFrame;
       padding-left: 20px;
 
-      .oneFilm{
+      .newFilms{
         width: $widthFrame;
         height: $heightFrame;
       }

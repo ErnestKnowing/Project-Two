@@ -189,11 +189,11 @@ header .menu a {
   justify-content: space-around;
 }
 .newMovies .flexNewMovies .movies {
-  width: 250px;
-  height: 300px;
+  width: 220px;
+  height: 280px;
   padding-left: 20px;
 }
-.newMovies .flexNewMovies .movies .oneFilm {
-  width: 250px;
-  height: 300px;
+.newMovies .flexNewMovies .movies .newFilms {
+  width: 220px;
+  height: 280px;
 }/*# sourceMappingURL=style.css.map */
