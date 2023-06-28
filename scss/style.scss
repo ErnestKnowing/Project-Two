@@ -233,7 +233,8 @@ header {
     display: grid;
     grid-template-columns: repeat(6, [col] 1fr);
     grid-template-rows: repeat(3, [row] 1fr);
-    border: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
     grid-column-gap: 15px;
     margin-top: 2%;
 
@@ -243,11 +244,10 @@ header {
     }
     .grid-item1 {
       grid-column: span 2;
-      background-color: #7ba7ab;
       width: 420px;
       height: 280px;
 
-      .oneImg{
+      .oneImg {
         width: 420px;
         height: 280px;
       }
@@ -255,11 +255,10 @@ header {
     .grid-item2 {
       grid-column: col 3 / col 5;
       grid-row: row 1 / row 3;
-      background-color: #ff3d00;
       width: 395px;
       height: 560px;
 
-      .twoImg{
+      .twoImg {
         width: 395px;
         height: 560px;
       }
@@ -267,35 +266,34 @@ header {
     .grid-item3 {
       grid-column: col 5 / col 6;
       grid-row: row 1 / row 3;
-      background-color: #9e9c9c;
       width: 300px;
-      height: 560px;
-    }
-    .grid-item4 {
-      background-color: red;
+      height: 500px;
+
+      .threeImg {
+        width: 300px;
+        height: 500px;
+      }
     }
     .grid-item5 {
-      background-color: rgb(134, 79, 79);
+      .fiveImg {
+        width: 200px;
+        height: 280px;
+      }
     }
     .grid-item6 {
-      background-color: rgb(24, 145, 245);
-    }
-    .grid-item7 {
-      background-color: rgb(52, 224, 173);
-    }
-    .grid-item8 {
-      background-color: rgb(126, 211, 46);
+      .sixImg {
+        width: 200px;
+      }
     }
     .grid-item9 {
       grid-column: col 2 / col 4;
-      background-color: #7ba7ab;
     }
     .grid-item10 {
       grid-column: col 4 / col 6;
-      background-color: rgb(3, 3, 109);
-    }
-    .grid-item11 {
-      background-color: rgb(255, 0, 212);
     }
   }
+}
+
+img {
+  border: 2px solid white;
 }
