@@ -276,6 +276,11 @@ header .menu a {
   grid-column: col 4/col 6;
 }
 
+.banerVideo {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   border: 2px solid white;
 }/*# sourceMappingURL=style.css.map */
