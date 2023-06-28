@@ -244,6 +244,9 @@ header {
     .grid-item1 {
       grid-column: span 2;
       background-color: #7ba7ab;
+      width: 420px;
+      height: 280px;
+
       .oneImg{
         width: 420px;
         height: 280px;
@@ -253,11 +256,20 @@ header {
       grid-column: col 3 / col 5;
       grid-row: row 1 / row 3;
       background-color: #ff3d00;
+      width: 395px;
+      height: 560px;
+
+      .twoImg{
+        width: 395px;
+        height: 560px;
+      }
     }
     .grid-item3 {
       grid-column: col 5 / col 6;
       grid-row: row 1 / row 3;
       background-color: #9e9c9c;
+      width: 300px;
+      height: 560px;
     }
     .grid-item4 {
       background-color: red;
