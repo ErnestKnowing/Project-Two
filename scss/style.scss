@@ -219,6 +219,7 @@ header {
     }
   }
 }
+/*Adaptive New Films*/
 
 /*Popular TV shows*/
 .series {
@@ -293,12 +294,34 @@ header {
     }
   }
 }
+/*Adaptive Popular TV shows*/
 
-.banerVideo{
-  display: flex;
-  justify-content: center;
+
+/*Most awaited TV series*/
+.banerVideo {
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+  }
+  .banerVideoFlex {
+    display: flex;
+    justify-content: center;
+  }
 }
+/*Adaptive Most awaited TV series*/
 
+/*Review*/
+.review{
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+  }
+}
+/*Adaptive Review*/
 img {
   border: 2px solid white;
 }
