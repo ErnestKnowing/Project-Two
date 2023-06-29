@@ -146,8 +146,8 @@ header {
     position: absolute;
     top: 200px;
     left: 200px;
-    width: 38ch;
-    color: rgb(17, 0, 252);
+    width: 33ch;
+    color: rgb(15, 210, 224);
     font-size: 50px;
     font-weight: 700;
     font-family: cursive;
@@ -155,6 +155,8 @@ header {
     overflow: hidden; /* скрываем переполнение контентом */
     border-right: 3px solid white; /* рисуем курсор */
     animation: cursor 1.2s step-end infinite, printed_text 5s steps(38);
+    background-color: rgba(255, 7, 234, 0.3);
+    border-radius: 5px;
   }
 }
 /*Animation*/
