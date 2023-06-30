@@ -316,35 +316,44 @@ header .menu a {
   justify-content: center;
   width: 33.33%;
   height: 500px;
-  background-color: #ef6b68;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  background-color: white;
 }
 .review .reviewFlex .blockReview .oneRow {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 99%;
   height: 50%;
   color: white;
   background-color: #1f233e;
 }
 .review .reviewFlex .blockReview .oneRow .reviewImg {
-  width: 180px;
-  height: 250px;
+  width: 50%;
+  height: 100%;
+  border-right: 2px solid white;
 }
 .review .reviewFlex .blockReview .oneRow .reviewImg img {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
+.review .reviewFlex .blockReview .oneRow .infoText {
+  color: #ef6b68;
+  width: 50%;
+  height: 100%;
+}
+.review .reviewFlex .blockReview .oneRow .infoText p {
+  padding: 3%;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
 .review .reviewFlex .blockReview .twoRow {
-  width: 90%;
+  width: 99%;
   height: 50%;
-  color: white;
+  color: #1f233e;
   border-top: 2px solid white;
-  background-color: #1f233e;
+  background-color: #ef6b68;
 }
 .review .reviewFlex .blockReview .twoRow .textReview {
-  padding: 5px;
+  padding: 20px;
   font-family: Work Sans, sans-serif;
   font-size: 20px;
   font-weight: 200;
