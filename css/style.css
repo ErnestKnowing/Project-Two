@@ -90,7 +90,7 @@ header .menu a {
 /*Adaptive header*/
 @media screen and (max-width: 1350px) {
   header {
-    /*Logo*/
+    background-color: #44b;
     /*Navigation*/
     /*Search*/
   }
@@ -294,11 +294,38 @@ header .menu a {
 
 /*Adaptive Most awaited TV series*/
 /*Review*/
+.review {
+  height: 300px;
+  width: 100%;
+}
 .review h2 {
   font-size: 30px;
   text-align: center;
   color: white;
   margin-top: 1%;
+}
+.review .reviewFlex {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 100%;
+}
+.review .reviewFlex .blockReview {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33.33%;
+  height: 300px;
+  background-color: red;
+}
+.review .reviewFlex .blockReview .oneRow {
+  width: 100%;
+  height: 50%;
+  background-color: #44b;
+}
+.review .reviewFlex .blockReview .twoRow {
+  width: 100%;
+  height: 50%;
+  background-color: #ff3d00;
 }
 
 /*Adaptive Review*/
