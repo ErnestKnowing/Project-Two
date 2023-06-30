@@ -316,7 +316,7 @@ header {
 
 /*Review*/
 .review {
-  height: 300px;
+  height: 500px;
   width: 100%;
   h2 {
     font-size: 30px;
@@ -327,23 +327,47 @@ header {
   .reviewFlex {
     display: flex;
     flex-wrap: wrap;
-    height: 30%;
+    height: 100%;
     width: 100%;
     .blockReview {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       width: 33.33%;
-      height: 300px;
-      background-color: red;
+      height: 500px;
+      background-color: #ef6b68;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
       .oneRow {
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
         height: 50%;
         color: white;
+        background-color: #1f233e;
+        
+        .reviewImg{
+          width: 180px;
+          height: 250px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
       .twoRow {
-        width: 100%;
+        width: 90%;
         height: 50%;
-        color: orangered;
+        color: white;
+        border-top: 2px solid white;
+        background-color: #1f233e;
+
+        .textReview {
+          padding: 5px;
+          font-family: Work Sans, sans-serif;
+          font-size: 20px;
+          font-weight: 200;
+        }
       }
     }
   }
