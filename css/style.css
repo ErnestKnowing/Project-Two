@@ -183,6 +183,7 @@ header .menu a {
   width: 100%;
 }
 .newMovies h2 {
+  font-family: "Tilt Neon", cursive;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -218,6 +219,7 @@ header .menu a {
   margin-top: 50px;
 }
 .series h2 {
+  font-family: "Tilt Neon", cursive;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -282,6 +284,7 @@ header .menu a {
 /*Adaptive Popular TV shows*/
 /*Most awaited TV series*/
 .banerVideo h2 {
+  font-family: "Tilt Neon", cursive;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -299,6 +302,7 @@ header .menu a {
   width: 100%;
 }
 .review h2 {
+  font-family: "Tilt Neon", cursive;
   font-size: 30px;
   text-align: center;
   color: white;
@@ -333,6 +337,8 @@ header .menu a {
 .review .reviewFlex .blockReview .oneRow .reviewImg img {
   width: 100%;
   height: 100%;
+  border: none;
+  border-radius: 5px;
 }
 .review .reviewFlex .blockReview .oneRow .infoText {
   color: white;
