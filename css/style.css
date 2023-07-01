@@ -307,6 +307,10 @@ header .menu a {
   justify-content: center;
   margin-top: 1%;
 }
+.banerVideo .banerVideoFlex iframe {
+  border-radius: 20px;
+  width: 50%;
+}
 
 /*Adaptive Most awaited TV series*/
 /*Review*/
