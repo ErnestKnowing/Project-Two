@@ -185,6 +185,7 @@ header .menu a {
 .newMovies h2 {
   font-family: "Tilt Neon", cursive;
   font-size: 30px;
+  text-shadow: 5px 5px 2px rgb(234, 0, 255);
   text-align: center;
   color: white;
   margin-top: 1%;
@@ -221,6 +222,7 @@ header .menu a {
 .series h2 {
   font-family: "Tilt Neon", cursive;
   font-size: 30px;
+  text-shadow: 5px 5px 2px rgb(234, 0, 255);
   text-align: center;
   color: white;
   margin-top: 1%;
@@ -246,6 +248,14 @@ header .menu a {
 .series .gridTvShow .grid-item1 .oneImg {
   width: 420px;
   height: 280px;
+}
+.series .gridTvShow img {
+  border: 2px solid white;
+  transition: all linear 0.2s;
+}
+.series .gridTvShow img:hover {
+  transition: 0.2s linear;
+  box-shadow: 0 0 5px 2px white;
 }
 .series .gridTvShow .grid-item2 {
   grid-column: col 3/col 5;
@@ -286,6 +296,7 @@ header .menu a {
 .banerVideo h2 {
   font-family: "Tilt Neon", cursive;
   font-size: 30px;
+  text-shadow: 5px 5px 2px rgb(234, 0, 255);
   text-align: center;
   color: white;
   margin-top: 1%;
@@ -293,6 +304,7 @@ header .menu a {
 .banerVideo .banerVideoFlex {
   display: flex;
   justify-content: center;
+  margin-top: 1%;
 }
 
 /*Adaptive Most awaited TV series*/
@@ -304,6 +316,7 @@ header .menu a {
 .review h2 {
   font-family: "Tilt Neon", cursive;
   font-size: 30px;
+  text-shadow: 5px 5px 2px rgb(234, 0, 255);
   text-align: center;
   color: white;
   margin-top: 1%;
@@ -313,6 +326,7 @@ header .menu a {
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
+  margin-top: 1%;
 }
 .review .reviewFlex .blockReview {
   display: flex;
@@ -394,9 +408,4 @@ header .menu a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
   background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%); /* Градиент */
   color: rgb(255, 255, 255);
-}
-
-/*Adaptive Review*/
-img {
-  border: 2px solid white;
 }/*# sourceMappingURL=style.css.map */

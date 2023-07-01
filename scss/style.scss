@@ -192,8 +192,9 @@ header {
 .newMovies {
   width: 100%;
   h2 {
-    font-family: 'Tilt Neon', cursive;
+    font-family: "Tilt Neon", cursive;
     font-size: 30px;
+    text-shadow: 5px 5px 2px rgb(234, 0, 255);
     text-align: center;
     color: white;
     margin-top: 1%;
@@ -229,8 +230,9 @@ header {
 .series {
   margin-top: 50px; //Исправить размеры
   h2 {
-    font-family: 'Tilt Neon', cursive;
+    font-family: "Tilt Neon", cursive;
     font-size: 30px;
+    text-shadow: 5px 5px 2px rgb(234, 0, 255);
     text-align: center;
     color: white;
     margin-top: 1%;
@@ -257,6 +259,14 @@ header {
         width: 420px;
         height: 280px;
       }
+    }
+    img {
+      border: 2px solid white;
+      transition: all linear 0.2s;
+    }
+    img:hover {
+      transition: 0.2s linear;
+      box-shadow: 0 0 5px 2px white;
     }
     .grid-item2 {
       grid-column: col 3 / col 5;
@@ -304,8 +314,9 @@ header {
 /*Most awaited TV series*/
 .banerVideo {
   h2 {
-    font-family: 'Tilt Neon', cursive;
+    font-family: "Tilt Neon", cursive;
     font-size: 30px;
+    text-shadow: 5px 5px 2px rgb(234, 0, 255);
     text-align: center;
     color: white;
     margin-top: 1%;
@@ -313,6 +324,7 @@ header {
   .banerVideoFlex {
     display: flex;
     justify-content: center;
+    margin-top: 1%;
   }
 }
 /*Adaptive Most awaited TV series*/
@@ -322,8 +334,9 @@ header {
   height: 500px;
   width: 100%;
   h2 {
-    font-family: 'Tilt Neon', cursive;
+    font-family: "Tilt Neon", cursive;
     font-size: 30px;
+    text-shadow: 5px 5px 2px rgb(234, 0, 255);
     text-align: center;
     color: white;
     margin-top: 1%;
@@ -333,6 +346,7 @@ header {
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
+    margin-top: 1%;
     .blockReview {
       display: flex;
       flex-wrap: wrap;
@@ -425,8 +439,4 @@ header {
       }
     }
   }
-}
-/*Adaptive Review*/
-img {
-  border: 2px solid white;
 }
