@@ -199,25 +199,27 @@ header {
     color: white;
     margin-top: 1%;
   }
-  #slider {
-    position: relative;
-    text-align: center;
-    top: 10px;
-    margin: 0 auto;
+  .flexNewMovies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    .movies {
+      width: $widthFrame;
+      height: $heightFrame;
 
-    #slides {
-      article {
-        width: 20%;
-        float: left;
-
-        image {
-          width: 500%;
-          line-height: 0;
-        }
-        #overflow {
-          width: 100%;
-          overflow: hidden;
-        }
+      .newFilms {
+        width: $widthFrame;
+        height: $heightFrame;
+        border-radius: 20px;
+      }
+      .nameFilms {
+        color: white;
+        font-size: 14px;
+      }
+      .dateFilms {
+        color: white;
+        font-size: 14px;
       }
     }
   }
