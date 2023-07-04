@@ -199,30 +199,7 @@ header {
     color: white;
     margin-top: 1%;
   }
-  .flexNewMovies {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 2%;
-    .movies {
-      width: $widthFrame;
-      height: $heightFrame;
 
-      .newFilms {
-        width: $widthFrame;
-        height: $heightFrame;
-        border-radius: 20px;
-      }
-      .nameFilms {
-        color: white;
-        font-size: 14px;
-      }
-      .dateFilms {
-        color: white;
-        font-size: 14px;
-      }
-    }
-  }
 }
 /*Adaptive New Films*/
 
