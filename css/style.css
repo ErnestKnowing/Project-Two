@@ -265,6 +265,40 @@ header .menu a {
   width: 220px;
   height: 280px;
 }
+.newMovies #slider #slides #overflow .image article img:hover {
+  transition: 0.2s;
+  box-shadow: 0 0 5px 5px white;
+}
+.newMovies #slider #slides #overflow .image article p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.newMovies #slider #controls {
+  margin: -25% 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+.newMovies #slider #controls label,
+.newMovies #slider #controls a {
+  cursor: pointer;
+}
+.newMovies #slider #controls label:hover {
+  opacity: 0.6;
+}
+.newMovies #slider #controls label {
+  transition: opacity 0.2s ease-out;
+}
+.newMovies #slider #active {
+  margin: 23% 0 0;
+  text-align: center;
+}
+.newMovies #slider #active label {
+  border-radius: 10px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #bbb;
+}
 
 /*Adaptive New Films*/
 /*Popular TV shows*/
