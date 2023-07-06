@@ -252,6 +252,7 @@ header .menu a {
 .newMovies #slider #slides #overflow {
   width: 100%;
   overflow: hidden;
+  height: 400px;
 }
 .newMovies #slider #slides #overflow .image {
   width: 500%;
@@ -272,6 +273,7 @@ header .menu a {
 .newMovies #slider #slides #overflow .image article p {
   color: white;
   font-family: "Courier New", Courier, monospace;
+  padding: 15px;
 }
 .newMovies #slider #controls {
   margin: -25% 0 0 0;
@@ -289,7 +291,7 @@ header .menu a {
   transition: opacity 0.2s ease-out;
 }
 .newMovies #slider #active {
-  margin: 23% 0 0;
+  margin: 18% 0 0;
   text-align: center;
 }
 .newMovies #slider #active label {

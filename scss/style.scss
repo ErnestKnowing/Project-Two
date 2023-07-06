@@ -265,6 +265,7 @@ header {
       #overflow {
         width: 100%;
         overflow: hidden;
+        height: 400px;
 
         .image {
           width: 500%;
@@ -285,6 +286,7 @@ header {
             p {
               color: white;
               font-family: "Courier New", Courier, monospace;
+              padding: 15px;
             }
           }
         }
@@ -306,7 +308,7 @@ header {
       }
     }
     #active {
-      margin: 23% 0 0;
+      margin: 18% 0 0;
       text-align: center;
       label {
         border-radius: 10px;
