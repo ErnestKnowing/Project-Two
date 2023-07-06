@@ -265,20 +265,19 @@ header .menu a {
   width: 20%;
   float: left;
 }
-.newMovies #slider #slides #overflow .image article blockOne {
-  margin: 50px;
-  border: 5px solid black;
+.newMovies #slider #slides #overflow .image article .blockOne {
+  margin-left: 10px;
 }
-.newMovies #slider #slides #overflow .image article img {
+.newMovies #slider #slides #overflow .image article .blockOne img {
   width: 220px;
   height: 280px;
   margin-top: 10px;
 }
-.newMovies #slider #slides #overflow .image article img:hover {
+.newMovies #slider #slides #overflow .image article .blockOne img:hover {
   transition: 0.2s;
   box-shadow: 0 0 5px 5px white;
 }
-.newMovies #slider #slides #overflow .image article p {
+.newMovies #slider #slides #overflow .image article .blockOne p {
   color: white;
   font-family: "Courier New", Courier, monospace;
   padding: 15px;
