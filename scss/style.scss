@@ -234,6 +234,54 @@ header {
       height: 68px;
       width: 68px;
     }
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5) {
+      background: #18a3dd;
+      border-color: #18a3dd !important;
+    }
+    #switch1:checked ~ #slides .image {
+      margin-left: 0;
+    }
+    #switch2:checked ~ #slides .image {
+      margin-left: -100%;
+    }
+
+    #switch3:checked ~ #slides .image {
+      margin-left: -200%;
+    }
+
+    #switch4:checked ~ #slides .image {
+      margin-left: -300%;
+    }
+
+    #switch5:checked ~ #slides .image {
+      margin-left: -400%;
+    }
+
+    #slides{
+      #overflow{
+        width: 100%;
+        overflow: hidden;
+
+        .image{
+          width: 500%;
+          line-height: 0;
+
+          article{
+            width: 20%;
+            float: left;
+            
+            img{
+              width: 220px;
+              height: 280px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 /*Adaptive New Films*/

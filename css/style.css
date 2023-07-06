@@ -226,6 +226,45 @@ header .menu a {
   height: 68px;
   width: 68px;
 }
+.newMovies #slider #switch1:checked ~ #active label:nth-child(1),
+.newMovies #slider #switch2:checked ~ #active label:nth-child(2),
+.newMovies #slider #switch3:checked ~ #active label:nth-child(3),
+.newMovies #slider #switch4:checked ~ #active label:nth-child(4),
+.newMovies #slider #switch5:checked ~ #active label:nth-child(5) {
+  background: #18a3dd;
+  border-color: #18a3dd !important;
+}
+.newMovies #slider #switch1:checked ~ #slides .image {
+  margin-left: 0;
+}
+.newMovies #slider #switch2:checked ~ #slides .image {
+  margin-left: -100%;
+}
+.newMovies #slider #switch3:checked ~ #slides .image {
+  margin-left: -200%;
+}
+.newMovies #slider #switch4:checked ~ #slides .image {
+  margin-left: -300%;
+}
+.newMovies #slider #switch5:checked ~ #slides .image {
+  margin-left: -400%;
+}
+.newMovies #slider #slides #overflow {
+  width: 100%;
+  overflow: hidden;
+}
+.newMovies #slider #slides #overflow .image {
+  width: 500%;
+  line-height: 0;
+}
+.newMovies #slider #slides #overflow .image article {
+  width: 20%;
+  float: left;
+}
+.newMovies #slider #slides #overflow .image article img {
+  width: 220px;
+  height: 280px;
+}
 
 /*Adaptive New Films*/
 /*Popular TV shows*/
