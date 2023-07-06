@@ -190,29 +190,6 @@ header .menu a {
   color: white;
   margin-top: 1%;
 }
-.newMovies .flexNewMovies {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 2%;
-}
-.newMovies .flexNewMovies .movies {
-  width: 220px;
-  height: 280px;
-}
-.newMovies .flexNewMovies .movies .newFilms {
-  width: 220px;
-  height: 280px;
-  border-radius: 20px;
-}
-.newMovies .flexNewMovies .movies .nameFilms {
-  color: white;
-  font-size: 14px;
-}
-.newMovies .flexNewMovies .movies .dateFilms {
-  color: white;
-  font-size: 14px;
-}
 
 /*Adaptive New Films*/
 /*Popular TV shows*/
