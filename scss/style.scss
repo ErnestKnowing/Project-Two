@@ -199,6 +199,18 @@ header {
     color: white;
     margin-top: 1%;
   }
+  input{
+    display: none;
+  }
+  #desltop:checked ~ #slider{
+    max-width: 960px;
+  }
+  #slider{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    margin: 0 auto;
+  }
 }
 /*Adaptive New Films*/
 
