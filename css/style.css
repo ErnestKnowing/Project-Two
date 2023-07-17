@@ -180,6 +180,7 @@ header .menu a {
 }
 /*MODAL WINDOW*/
 .form-popup {
+  display: none;
   margin-left: 26%;
   position: absolute;
 }
