@@ -97,11 +97,12 @@ modalMoonfall.addEventListener("click", function () {
   img.src = "../img/new-films/banner_moonfall.jpeg";
 });
 
+//Show modal window
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   document.getElementById("myFon").style.display = "block";
 }
-
+//Hide modal window
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("myFon").style.display = "none";
