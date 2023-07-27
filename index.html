@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/script_modal_window.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoviesSearch</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="img/logo.jpg" />
+        <img src="img/logo.jpg">
       </div>
       <div class="menu">
         <ul>
@@ -25,13 +24,13 @@
       </div>
       <div class="search">
         <form>
-          <input type="text" placeholder="Search" />
+          <input type="text" placeholder="Search"/>
           <button type="submit">search</button>
         </form>
       </div>
     </header>
     <div class="posterOne">
-      <img class="one" src="img/poster.jpg" />
+      <img class="one" src="img/poster.jpg">
       <p class="text">What's Happening in "Stranger Things"?</p>
     </div>
     <!-- Popup -->
@@ -41,23 +40,14 @@
         <div class="start">
           <div class="img">
             <div class="opicaty">
-              <img class="imgModal" src="img/banner_drakony-predseans-obsl-lodka.jpg" alt="">
+              <img class="imgModal" alt="">
             </div>
           </div>
           <div class="description">
             <div class="header">
               <h3 class="titleModel">Plot</h3>
             </div>
-            <p class="descP">
-                John Kinley does not remember how he survived, being surrounded by the enemy in
-                Afghanistan, but translates into English
-                named Ahmed. He managed to recapture the wounded Kinley and
-                pull yourself out due to a dangerous injury. Now the sense of duty is not
-                John delivers the results and decides to risk everything to get back for
-                Ahmed and his family. On the announcement of a collective hunt, act
-                has to be alone, but he understands that he cannot quit
-                his comrade in trouble.
-            </p>
+            <p class="descP"></p>
             <div class="buttons">
               <a class="btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
@@ -90,85 +80,85 @@
           <div id="overflow">
             <div class="image">
               <article>
-                <div class="blockOne">
-                  <img src="img/banner_drakony-predseans-obsl-lodka.jpg" alt="Drakony" onclick="openForm()">
+                <div class="blockOne" id="drakony" onclick="openForm()">
+                  <img src="img/banner_drakony-predseans-obsl-lodka.jpg" alt="Drakony">
                   <p>Dungeons & Dragons</p>
                   <p>10 March 2023</p>
                 </div>
-              <div class="blockOne">
+              <div class="blockOne" id="pautina" onclick="openForm()">
                 <img src="img/banner_chp-pautina-vselennykh-predseans-obsl-lodka.jpg" alt="Pautina">
                 <p>Spider-Man</p>
                 <p>30 May 2023</p>
               </div>
-              <div class="blockOne">
+              <div class="blockOne" id="perevodchik" onclick="openForm()">
                 <img src="img/banner_perevodchik.jpg" alt="Perevodchik">
                 <p>The Covenant </p>
                 <p>21 April 2023</p>
               </div>
               </article>
               <article>
-                <div class="blockOne">
+                <div class="blockOne" id="fast" onclick="openForm()">
                   <img src="img/banner_fast10-predseans-obsl-lodka.jpg" alt="Fast10">
                   <p>Fast X</p>
                   <p>19 May 2023</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="strazhi" onclick="openForm()">
                   <img src="img/banner_strazhi-3-predseans-obsl-lodka.jpg" alt="Strazhi3">
                   <p>Guardians of the Galaxy</p>
                   <p>22 April 2023</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="wick" onclick="openForm()">
                   <img src="img/banner_john_wick.jpg" alt="John Wick">
                   <p>John Wick: Chapter 4</p>
                   <p>23 March 2023</p>
                   </div>
               </article>
               <article>
-                <div class="blockOne">
+                <div class="blockOne" id="beau" onclick="openForm()">
                   <img src="img/banner_beau_is_afraid.jpg" alt="Beau is Afraid">
                   <p>Beau Is Afraid</p>
                   <p>21 April 2023</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="crimes" onclick="openForm()">
                   <img src="img/banner_crimes_of_the_future.jpg" alt="Crimes of the Future">
                   <p>Crimes of the Future</p>
                   <p>22 June 2022</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="old" onclick="openForm()">
                   <img src="img/banner_old_man.jpeg" alt="Old Man">
                   <p>Old Man</p>
                   <p>14 October 2022</p>
                   </div>
               </article>
               <article>
-                <div class="blockOne">
+                <div class="blockOne" id="blonde" onclick="openForm()">
                   <img src="img/banner_blonde.jpeg" alt="Blonde">
                   <p>Blonde</p>
                   <p>16 September 2022</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="medieval" onclick="openForm()">
                   <img src="img/banner_medieval.png" alt="Medieval">
                   <p>Medieval</p>
                   <p>8 September 2022</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="away" onclick="openForm()">
                   <img src="img/banner_the_weekend_away_film.png" alt="The Weekend Away">
                   <p>The Weekend Away</p>
                   <p>27 March 2022</p>
                   </div>
               </article>
               <article>
-                <div class="blockOne">
+                <div class="blockOne" id="windfall" onclick="openForm()">
                   <img src="img/banner_windfall.jpg" alt="Windfall">
                   <p>Windfall</p>
                   <p>18 March 2022</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="adam" onclick="openForm()">
                   <img src="img/bannre_the_adam_project.jpg" alt="The Adam Project">
                   <p>The Adam Project</p>
                   <p>11 March 2022</p>
                 </div>
-                <div class="blockOne">
+                <div class="blockOne" id="moonfall" onclick="openForm()">
                   <img src="img/banner_moonfall.jpeg" alt="Moonfall">
                   <p>Moonfall</p>
                   <p>31 January 2022</p>
@@ -339,5 +329,6 @@
         </div>
       </div>
     </div>
+    <script src="js/script_modal_window.js"></script>
   </body>
 </html>
