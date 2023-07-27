@@ -1,6 +1,21 @@
+//block id
 const modalDrakony = document.querySelector("#drakony");
 const modalPautina = document.querySelector("#pautina");
+const modalPerevodchik = document.querySelector("#perevodchik");
+const modalFast = document.querySelector("#fast");
+const modalStrazhi = document.querySelector("#strazhi");
+const modalWick = document.querySelector("#wick");
+const modalBeau = document.querySelector("#beau");
+const modalCrimes = document.querySelector("#crimes");
+const modalOld = document.querySelector("#old");
+const modalBlonde = document.querySelector("#blonde");
+const modalMedieval = document.querySelector("#medieval");
+const modalAway = document.querySelector("#away");
+const modalWindfall = document.querySelector("#windfall");
+const modalAdam = document.querySelector("#adam");
+const modalMoonfall = document.querySelector("#moonfall");
 
+//change dynamically
 const textModal = document.querySelector(".descP");
 const img = document.querySelector(".imgModal")
 
