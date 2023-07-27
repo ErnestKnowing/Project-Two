@@ -19,10 +19,10 @@ const modalMoonfall = document.querySelector("#moonfall");
 const textModal = document.querySelector(".descP");
 const img = document.querySelector(".imgModal")
 
-text.addEventListener("click", function () {
+modalDrakony.addEventListener("click", function () {
   textModal.textContent =
     "John Kinley does not remember how he survived, being surrounded by the enemy in Afghanistan, but translates into English named Ahmed. He managed to recapture the wounded Kinley and pull yourself out due to a dangerous injury. Now the sense of duty is not John delivers the results and decides to risk everything to get back for Ahmed and his family. On the announcement of a collective hunt, act has to be alone, but he understands that he cannot quit his comrade in trouble.";
-    
+    img.src = '../img/new-films/banner_drakony-predseans-obsl-lodka.jpg'
 });
 textOne.addEventListener("click", function () {
   textModal.textContent = 'p'    
