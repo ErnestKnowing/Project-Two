@@ -203,7 +203,19 @@ header {
     }
   }
 }
-
+@keyframes modal {
+  0% {opacity: 0;};
+  10% {opacity: 0.1;};
+  20% {opacity: 0.2;}
+  30% {opacity: 0.3;}
+  40% {opacity: 0.4;}
+  50% {opacity: 0.5;}
+  60% {opacity: 0.6;}
+  70% {opacity: 0.7;}
+  80% {opacity: 0.8;}
+  90% {opacity: 0.9;}
+  100% {opacity: 1;};
+}
 .popup-black {
   content: "";
   background: -webkit-linear-gradient(
@@ -231,6 +243,7 @@ header {
   width: 100%;
   height: 100%;
   opacity: 1;
+  animation: modal 0.4s alternate ease;
   z-index: 1;
 }
 /*MODAL WINDOW*/
@@ -238,9 +251,11 @@ header {
   display: none;
   margin-left: 26%;
   margin-top: 8%;
-  opacity: 1;
+  // opacity: 1;
   position: absolute;
   z-index: 9999;
+  animation: modal 0.8s alternate ease;
+
   .form-container {
     max-width: 650px;
     height: 420px;
