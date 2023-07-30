@@ -22,7 +22,7 @@ const img = document.querySelector(".imgModal");
 //Change content on clicks
 modalDrakony.addEventListener("click", function () {
   textModal.textContent =
-    "The bard and adventurer Edgin Darvis, together with his fighting girlfriend Holga, escapes from prison and goes to see his daughter, who in recent years has been taken care of by his former accomplice Forge. Upon the arrival of the American, Sophina not only became fabulously rich and became governor, but also built a daughter against her father, and in general - not against getting rid of Edgin and Holga. Having managed to fight off the executioners, a desperate couple explores a terrible area, and for this they will have to confront the absent-minded magician Simon, the dexterous druid Dorik and find the magical helmet that was considered lost.";
+    "The bard and adventurer Edgin Darvis, together with his fighting girlfriend Holga, escapes from prison and goes to see his daughter, who in recent years has been taken care of by his former accomplice Forge. Upon the arrival of the American, Sophina not only became fabulously rich and became governor, but also built a daughter against her fatheer."
   img.src = "../img/new-films/banner_drakony-predseans-obsl-lodka.jpg";
 });
 modalPautina.addEventListener("click", function () {
@@ -33,7 +33,7 @@ modalPautina.addEventListener("click", function () {
 });
 modalPerevodchik.addEventListener("click", function () {
   textModal.textContent =
-    "John Kinley does not remember how he survived, being surrounded by the enemy in Afghanistan, but translates into English named Ahmed. He managed to recapture the wounded Kinley and pull yourself out due to a dangerous injury. Now the sense of duty is not John delivers the results and decides to risk everything to get back for Ahmed and his family. On the announcement of a collective hunt, act has to be alone, but he understands that he cannot quit his comrade in trouble.";
+    "John Kinley does not remember how he survived, being surrounded by the enemy in Afghanistan, but translates into English named Ahmed. He managed to recapture the wounded Kinley and pull yourself out due to a dangerous injury. Now the sense of duty is not John delivers the results and decides to risk everything to get back for Ahmed and his family.";
   img.src = "../img/new-films/banner_perevodchik.jpg";
 });
 modalFast.addEventListener("click", function () {
@@ -73,7 +73,7 @@ modalBlonde.addEventListener("click", function () {
 });
 modalMedieval.addEventListener("click", function () {
   textModal.textContent =
-    "The Holy Roman Empire descends into bloody chaos as rival claimants battle for the vacant throne. A brave mercenary leader named Yang reluctantly agrees to a treacherous political game: kidnap the bride of a powerful noble in order to block the latter's path to power. But unexpectedly for himself, Yang begins to have strong feelings for his hostage and, in order to free her, challenges an entire army guarding the vicious aristocracy.";
+    "The Holy Roman Empire descends into bloody chaos as rival claimants battle for the vacant throne. A brave mercenary leader named Yang reluctantly agrees to a treacherous political game: kidnap the bride of a powerful noble in order to block the latter's path to power. But unexpectedly for himself, Yang begins to have strong feelings for his hostage and, in order to free her.";
   img.src = "../img/new-films/banner_medieval.png";
 });
 modalAway.addEventListener("click", function () {
