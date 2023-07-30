@@ -1,5 +1,19 @@
 @charset "UTF-8";
 /*Variables*/
+@font-face {
+  font-display: swap;
+  font-family: "Neonderthaw";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/neonderthaw-v3-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/tilt-neon-v8-latin-regular.woff2");
+}
 * {
   padding: 0;
   margin: 0;
@@ -250,6 +264,9 @@ header .menu a {
   background-color: rgb(101, 31, 167);
 }
 .form-popup .form-container .start .description .header .titleModel {
+  font-family: "Neonderthaw";
+  font-style: normal;
+  font-weight: 400;
   font-size: 28px;
   font-weight: 900;
   color: #ffffff;
@@ -257,6 +274,9 @@ header .menu a {
 }
 .form-popup .form-container .start .description .descP {
   color: #ffffff;
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   font-weight: 300;
   margin: 0;
