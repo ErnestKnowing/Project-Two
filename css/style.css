@@ -187,7 +187,7 @@ header .menu a {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.9;
+  opacity: 1;
   z-index: 1;
 }
 
@@ -204,9 +204,10 @@ header .menu a {
   max-width: 700px;
   height: 450px;
   padding: 8px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(144, 202, 190);
   transition: all linear 0.5s;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
 }
 .form-popup .form-container .start {
   display: flex;
@@ -230,6 +231,7 @@ header .menu a {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  border-radius: 20px;
 }
 .form-popup .form-container .start .description {
   display: flex;
@@ -238,14 +240,14 @@ header .menu a {
   flex-direction: column;
   width: 50%;
   height: 100%;
-  background-color: rgb(63, 23, 156);
+  background-color: rgb(101, 31, 167);
 }
 .form-popup .form-container .start .description .header {
   display: flex;
   justify-content: center;
   height: 10%;
   width: 100%;
-  background-color: rgb(140, 0, 255);
+  background-color: rgb(101, 31, 167);
 }
 .form-popup .form-container .start .description .header .titleModel {
   font-size: 28px;
@@ -259,8 +261,8 @@ header .menu a {
   font-weight: 300;
   margin: 0;
   padding: 20px;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(144, 202, 190);
+  border-top: 2px solid rgb(144, 202, 190);
   cursor: pointer;
   height: 80%;
 }
@@ -271,7 +273,7 @@ header .menu a {
   align-items: center;
   width: 100%;
   height: 10%;
-  background-color: rgb(255, 0, 191);
+  background-color: rgb(101, 31, 167);
 }
 .form-popup .form-container .start .description .buttons .btn {
   padding: 5px 5px;
