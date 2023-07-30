@@ -23,7 +23,7 @@ const img = document.querySelector(".imgModal");
 modalDrakony.addEventListener("click", function () {
   textModal.textContent =
     "The bard and adventurer Edgin Darvis, together with his fighting girlfriend Holga, escapes from prison and goes to see his daughter, who in recent years has been taken care of by his former accomplice Forge. Upon the arrival of the American, Sophina not only became fabulously rich and became governor, but also built a daughter against her fatheer."
-  img.src = "../img/new-films/banner_drakony-predseans-obsl-lodka.jpg";
+  img.src = "img/new-films/banner_drakony-predseans-obsl-lodka.jpg";
 });
 modalPautina.addEventListener("click", function () {
   textModal.textContent =
