@@ -602,7 +602,7 @@ header .menu a {
   flex-wrap: wrap;
   justify-content: center;
   width: 33.33%;
-  height: 600px;
+  height: 700px;
   background-color: white;
 }
 .review .reviewFlex .blockReview .oneRow {
@@ -659,6 +659,25 @@ header .menu a {
   color: #00ffff;
   letter-spacing: 2px;
 }
+.review .reviewFlex .blockReview .twoRow .prof {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  margin-left: 25px;
+}
+.review .reviewFlex .blockReview .twoRow .prof .name {
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 10px;
+}
+.review .reviewFlex .blockReview .twoRow .prof .icon-profile {
+  width: 50px;
+  height: 50px;
+}
 .review .reviewFlex .blockReview .twoRow .textReview {
   padding: 20px;
   font-family: "Tilt Neon";
@@ -675,12 +694,12 @@ header .menu a {
   color: #ef6b68;
   margin-top: 10%;
   margin-left: 40%;
-  font-family: Work Sans, sans-serif;
+  font-family: "Tilt Neon";
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
 }
 .review .reviewFlex .blockReview .twoRow .look:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
-  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%); /* Градиент */
+  background: linear-gradient(to right, #169fb1 50%, #fd4845 50%); /* Градиент */
   color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
