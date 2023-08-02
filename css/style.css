@@ -611,7 +611,7 @@ header .menu a {
   width: 99%;
   height: 50%;
   color: white;
-  background-color: #ef6b68;
+  background-color: #45bba7;
 }
 .review .reviewFlex .blockReview .oneRow .reviewImg {
   width: 50%;
@@ -621,7 +621,7 @@ header .menu a {
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .review .reviewFlex .blockReview .oneRow .infoText {
   color: white;
@@ -630,36 +630,42 @@ header .menu a {
 }
 .review .reviewFlex .blockReview .oneRow .infoText h3 {
   text-align: center;
-  font-family: Work Sans, sans-serif;
-  font-size: 20px;
+  font-family: "Tilt Neon";
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.4px;
 }
 .review .reviewFlex .blockReview .oneRow .infoText p {
-  padding: 3%;
-  font-family: Work Sans, sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  padding: 5px;
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
 }
 .review .reviewFlex .blockReview .twoRow {
   width: 99%;
   height: 50%;
   color: #ef6b68;
   border-top: 2px solid white;
-  background-color: #1f233e;
+  background-color: #d620af;
 }
 .review .reviewFlex .blockReview .twoRow h3 {
   text-align: center;
-  font-family: Work Sans, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
+  font-family: "Neonderthaw";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #00ffff;
+  letter-spacing: 2px;
 }
 .review .reviewFlex .blockReview .twoRow .textReview {
   padding: 20px;
-  font-family: Work Sans, sans-serif;
+  font-family: "Tilt Neon";
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-  font-weight: 200;
+  color: #fff;
 }
 .review .reviewFlex .blockReview .twoRow .look {
   border: 1px solid #ffffff;
